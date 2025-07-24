@@ -63,19 +63,19 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
               Driving Transformative Change,{" "}
-              <span className="text-highlight">One Step at a Time</span>
+              <span className="text-accent">One Step at a Time</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-10 opacity-90 leading-relaxed max-w-3xl mx-auto">
-              Empowering organizations across East Africa through strategic consulting, governance reform, 
-              and capacity building solutions that create lasting impact.
+              Forward-focused consulting committed to guiding organizations, institutions, and governments 
+              through every critical step of their transformation journey across the Horn of Africa.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg"
                 onClick={() => window.location.hash = "/contact"}
-                className="bg-highlight text-highlight-foreground hover:bg-highlight/90 font-semibold text-lg px-8 py-4 group"
+                className="bg-accent text-accent-foreground hover:bg-accent-light font-semibold text-lg px-8 py-4 group"
               >
                 Work With Us
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -121,16 +121,16 @@ const Index = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-                  Transforming East Africa Through Strategic Partnership
+                  Transforming the Horn of Africa Through Strategic Partnership
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  At Tilaabo Consulting, we believe in the power of transformation. Our name reflects our 
-                  commitment to driving positive change across East Africa through strategic consulting, 
-                  governance reform, and capacity building.
+                  Derived from the Somali word "Tilaabo", meaning "step", our name reflects our core belief: 
+                  meaningful progress happens one well-planned step at a time. We offer results-driven solutions 
+                  in governance, strategy, research, and development.
                 </p>
                 <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                  With deep understanding of regional dynamics and international best practices, we partner 
-                  with organizations to build sustainable solutions that create lasting impact.
+                  With locally informed, globally tested methods, we empower institutions, communities, 
+                  and enterprises to thrive through innovative, evidence-based, and context-specific consulting services.
                 </p>
                 <Button 
                   onClick={() => window.location.hash = "/about"}
@@ -145,28 +145,28 @@ const Index = () => {
                 <div className="space-y-4">
                   <Card className="border-primary/20">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-primary mb-2">Strategic Excellence</h3>
-                      <p className="text-sm text-muted-foreground">Data-driven approaches to complex challenges</p>
+                      <h3 className="font-semibold text-primary mb-2">Results-Driven</h3>
+                      <p className="text-sm text-muted-foreground">Focused on outcomes that create lasting change</p>
                     </CardContent>
                   </Card>
                   <Card className="border-accent/20">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-accent mb-2">Local Expertise</h3>
-                      <p className="text-sm text-muted-foreground">Deep understanding of East African contexts</p>
+                      <h3 className="font-semibold text-accent mb-2">Culturally Rooted</h3>
+                      <p className="text-sm text-muted-foreground">Globally minded, locally informed approach</p>
                     </CardContent>
                   </Card>
                 </div>
                 <div className="space-y-4 mt-8">
-                  <Card className="border-highlight/20">
-                    <CardContent className="p-6">
-                      <h3 className="font-semibold text-highlight-foreground mb-2">Proven Impact</h3>
-                      <p className="text-sm text-muted-foreground">Track record of sustainable transformation</p>
-                    </CardContent>
-                  </Card>
                   <Card className="border-primary/20">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-primary mb-2">Partnership Approach</h3>
-                      <p className="text-sm text-muted-foreground">Collaborative solutions that last</p>
+                      <h3 className="font-semibold text-primary mb-2">Evidence-Based</h3>
+                      <p className="text-sm text-muted-foreground">Innovative solutions grounded in research</p>
+                    </CardContent>
+                  </Card>
+                  <Card className="border-accent/20">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-accent mb-2">Step-by-Step</h3>
+                      <p className="text-sm text-muted-foreground">Methodical approach ensuring success</p>
                     </CardContent>
                   </Card>
                 </div>
@@ -181,7 +181,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Our Core Services</h2>
-            <div className="w-20 h-1 bg-highlight mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
               Comprehensive consulting solutions designed to drive transformation and build lasting capacity 
               across your organization.
@@ -239,7 +239,7 @@ const Index = () => {
             <Button 
               size="lg"
               onClick={() => window.location.hash = "/contact"}
-              className="bg-highlight text-highlight-foreground hover:bg-highlight/90 font-semibold text-lg px-8 py-4"
+              className="bg-accent text-accent-foreground hover:bg-accent-light font-semibold text-lg px-8 py-4"
             >
               Start Your Project Today
             </Button>

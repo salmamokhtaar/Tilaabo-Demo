@@ -9,8 +9,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Tilaabo Consulting</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Driving transformative change across East Africa through strategic consulting, 
-              governance reform, and capacity building solutions.
+              Forward-focused consulting committed to guiding organizations through every critical step 
+              of their transformation journey across the Horn of Africa and beyond.
             </p>
           </div>
 
@@ -19,16 +19,16 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contact Information</h4>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-highlight" />
+                <Mail className="h-5 w-5 text-accent" />
                 <span>info@tilaaboconsulting.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-highlight" />
-                <span>+252 61 234 5678</span>
+                <Phone className="h-5 w-5 text-accent" />
+                <span>+252 613025613</span>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-highlight" />
-                <span>Mogadishu, Somalia</span>
+                <MapPin className="h-5 w-5 text-accent" />
+                <span>Hodan, Taleex, Muna apartment, Mogadishu</span>
               </div>
             </div>
           </div>
@@ -39,21 +39,21 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a 
                 href="#" 
-                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-highlight hover:text-primary transition-colors"
+                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
-                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-highlight hover:text-primary transition-colors"
+                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
-                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-highlight hover:text-primary transition-colors"
+                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -63,8 +63,9 @@ const Footer = () => {
             <div className="pt-4">
               <h5 className="font-medium mb-2">Quick Links</h5>
               <div className="space-y-1">
-                <a href="#" className="block text-sm text-primary-foreground/80 hover:text-highlight transition-colors">Privacy Policy</a>
-                <a href="#" className="block text-sm text-primary-foreground/80 hover:text-highlight transition-colors">Terms of Service</a>
+                <a href="#" className="block text-sm text-primary-foreground/80 hover:text-accent transition-colors">Privacy Policy</a>
+                <a href="#" className="block text-sm text-primary-foreground/80 hover:text-accent transition-colors">Terms of Service</a>
+                <a href="https://www.tilaaboconsulting.com" className="block text-sm text-primary-foreground/80 hover:text-accent transition-colors">www.tilaaboconsulting.com</a>
               </div>
             </div>
           </div>

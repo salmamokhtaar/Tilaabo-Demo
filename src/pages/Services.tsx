@@ -14,9 +14,9 @@ const Services = () => {
       description: "Transform your organization with data-driven strategies and actionable insights",
       icon: TrendingUp,
       features: [
-        "Organizational strategy development",
-        "Business process optimization",
-        "Change management planning",
+        "Organizational strategy & transformation",
+        "Institutional development",
+        "Visioning, planning, and restructuring",
         "Performance improvement strategies",
         "Market analysis and competitive positioning",
         "Digital transformation roadmaps"
@@ -27,9 +27,9 @@ const Services = () => {
       description: "Strengthen institutional frameworks and improve public service delivery",
       icon: Building2,
       features: [
-        "Institutional capacity assessments",
-        "Governance framework development",
-        "Public sector modernization",
+        "Policy analysis and advisory",
+        "Capacity building for government institutions",
+        "Decentralization and local governance",
         "Anti-corruption strategies",
         "Transparency and accountability systems",
         "Citizen engagement mechanisms"
@@ -40,11 +40,11 @@ const Services = () => {
       description: "Evidence-based research and policy solutions for complex challenges",
       icon: FileText,
       features: [
-        "Policy analysis and development",
-        "Evidence-based research studies",
-        "Stakeholder consultation processes",
+        "Socioeconomic and political research",
+        "Baseline, midline, and endline surveys",
+        "Public policy and sectoral research",
         "Impact assessment studies",
-        "Baseline and endline surveys",
+        "Stakeholder consultation processes",
         "Policy implementation frameworks"
       ]
     },
@@ -66,9 +66,9 @@ const Services = () => {
       description: "Empower your team with skills and knowledge for sustained success",
       icon: GraduationCap,
       features: [
-        "Leadership development programs",
-        "Technical skills training",
-        "Workshop facilitation",
+        "Leadership and management training",
+        "Technical skills development",
+        "Customized workshops for NGOs, CSOs, and public servants",
         "Mentoring and coaching",
         "Institutional strengthening",
         "Knowledge management systems"
@@ -84,7 +84,7 @@ const Services = () => {
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
             <p className="text-xl opacity-90 leading-relaxed">
-              Comprehensive consulting solutions tailored to drive transformation and build lasting capacity
+              Results-driven solutions in governance, strategy, research, and development
             </p>
           </div>
         </div>
@@ -95,10 +95,10 @@ const Services = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-primary mb-4">What We Offer</h2>
-            <div className="w-20 h-1 bg-highlight mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-accent mx-auto mb-6"></div>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Our integrated approach combines strategic thinking, practical implementation, 
-              and continuous learning to deliver sustainable results for our clients.
+              Our step-by-step methodology ensures deep understanding of context, collaborative design, 
+              evidence-based implementation, and long-term institutional strengthening.
             </p>
           </div>
           

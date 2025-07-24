@@ -13,14 +13,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+252 61 234 5678",
+      details: "+252 613025613",
       subtitle: "Monday - Friday, 9AM - 6PM"
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      details: "Mogadishu, Somalia",
-      subtitle: "East Africa Regional Office"
+      details: "Hodan, Taleex, Muna apartment",
+      subtitle: "Mogadishu, Somalia"
     },
     {
       icon: Clock,
@@ -38,7 +38,7 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl opacity-90 leading-relaxed">
-              Let's start a conversation about your project and how we can help you achieve your goals
+              Ready to take the next step? Let's discuss your transformation journey
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground text-sm">
-                    Follow us on social media for updates and insights
+                    Follow us @TilaaboConsulting on social media for updates and insights
                   </p>
                   <div className="flex space-x-4">
                     <a 
@@ -118,19 +118,19 @@ const Contact = () => {
                   <ul className="space-y-3 text-sm">
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Deep expertise in East African markets</span>
+                      <span>Culturally rooted, globally minded approach</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Proven track record with 100+ projects</span>
+                      <span>Track record of impact across sectors</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Collaborative approach to problem-solving</span>
+                      <span>Tailored, step-by-step solutions</span>
                     </li>
                     <li className="flex items-start space-x-2">
                       <div className="w-1.5 h-1.5 bg-accent rounded-full mt-2 flex-shrink-0"></div>
-                      <span>Sustainable solutions that last</span>
+                      <span>Commitment to sustainability and equity</span>
                     </li>
                   </ul>
                 </CardContent>
